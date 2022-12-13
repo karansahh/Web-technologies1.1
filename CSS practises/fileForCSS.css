@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Vinyl&display=swap');
+
+h1{
+background-color:mediumorchid;
+font-size:40px;
+color:cornsilk;
+font-family: 'Rubik Vinyl', cursive;
+}
+p{
+background-color:cyan;
+font-size:20px;
+color:black;
+font-family: 'Oswald', sans-serif;
+
+}
+
+/* For more color choices go to color picker in your browser and in the value of property write the hex of the given color from color picker. rgb here is red, green, blue and every other color is a combination of these three. Eg: background-color:000) */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta data is data about data. It is placed within the head. It is self closing-->
+    <meta charset="UTF-8">
+    <meta name="description" content="use of alt and title attribute in img">
+    <meta name="keywords" content="alt, title, img, how to">
+    <meta name="author" content="Karan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport for multiple devices.-->
+    <meta http-equiv="refresh" content="60">
+    <!-- this is used to refresh the webpage and the content specifies as to how much second to refresh-->
+    <meta name="subject" content="Simple research on alt and title attribute in img">
+    <meta name="language" content="ES">
+    <meta name="robots" content="index,nofollow">
+    <meta property="og:url" content="http://www.facebook.com/" />
+    <meta property="og:site_name" content="https://www.facebook.com/" />
+    <title>
+        Using alt and title in img
+    </title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Karan Sah</h1>
+            <h2>
+                Use of alt in img
+            </h2>
+            <dl>
+                <dt>
+                    Why use alt in img?</dt>
+                <dd>
+                    Altough image's source and url is already mentioned in src attribute, we use alt in img tag because,
+                    this attribute designates text for the provided image in case the image cannot be displayed through
+                    some
+                    reason. Another reason may be to make the website friendly to specially abled person so that they
+                    would
+                    know which image is being loaded although they couldn't see. For example, if some AI has to spell
+                    out
+                    the image displayed, it can't but it can spell out the text written in alt attribute so s/he would
+                    know
+                    about the image too.
+                </dd>
+                <blockquote cite="https://www.w3schools.com/tags/att_area_alt.asp#:~:text=Definition%20and%20Usage,user%20uses%20a%20screen%20reader).">
+                    This attribue is for alternate text for a definit area, if in case an image wouln't be shown. This attribute gives us the alternative information for an image if in case a user for vivid purpose wouldn't be able to see it(of tortoise pased connection, wrong src attribute, or the user uses a screen reader.)
+                </blockquote>
+                <dt>Example</dt>
+                <dd>Let's take a picture for an example. I will deliberately write the src of img wrong so that when
+                    image
+                    is not shown its alternate text can be provided.</dd><br>
+                <img src="worshop-two.jfif"
+                    alt="a beautiful evening scenery of bridge and road along with a mobile phone trying to capture it"><br>
+                <p>As you can see though the image is not loaded its text can clearly be read.</p>
+                <dt></dt>
+            </dl>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h3>Use of title in img</h3>
+            <dl>
+                <dt>Why use title attribute in img?</dt>
+                <dd>
+                    This is used so that user may know it as screentip or tooltip. It is very much helpful in vivid
+                    situations. For example: If the website is about history and you don't know which historian is
+                    depicted in the picture all you have to do is hover your cursor on image and it will so you the
+                    title or tooltip.
+                </dd>
+                <blockquote cite="https://www.dofactory.com/html/img/title#:~:text=The%20title%20attribute%20on%20an,image%20will%20display%20the%20tooltip.">
+                    The explanation this code provides is with is the title attribute is moved in the img tag. The value of this attribute can be any string. Hovering the cursor over the image and the tooltip can appear after a second.
+                </blockquote>
+                <dt>Example</dt>
+                <dd>
+                    Let's take a above picture but loading picture this time as an example. All you have to do is hover over the image for certain period of time. The text will be shown.
+                </dd>
+                <img src="workshop2.jfif" title="Scenery of Bridge and Road" alt="a beautiful evening scenery of bridge and road along with a mobile phone trying to capture it">
+            </dl>
+        </div>
+    </section>
+</body>
+</html>
