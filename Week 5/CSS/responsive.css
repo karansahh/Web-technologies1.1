@@ -1,0 +1,57 @@
+img {
+    max-width: 100%;
+    /* same as it is of image*/
+    height: auto;
+    /*auto height auto image, nice image*/
+}
+
+/* for laptop */
+@media screen and (min-width:769px) and (max-width:1024px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p{
+        background-color: burlywood;
+        font-size: 20px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+}
+
+/* for tablets/ipad */
+@media screen and (min-width:480px) and (max-width:768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p{
+        width: 300px;
+        height: 300px;
+        background-color: burlywood;
+        font-size: 20px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+/* for mobile */
+@media screen and (min-width:320px) and (max-width:480px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        width: 300px;
+        height: 300px;
+        background-color: burlywood;
+        font-size: 20px;
+        color: brown;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 50px;
+        padding: 10px;
+    }
+}

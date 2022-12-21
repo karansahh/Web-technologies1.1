@@ -1,0 +1,36 @@
+/*whole website is selected by *{
+                                    }
+This changes all the website. Every styling done here affects all the websites styles and colors except id. This is called universal selector.
+                                    */
+                                    /*
+*{
+   background: linear-gradient(to left, pink, orange)
+   /*linear gradient mixes and can use many colors at a time. The outcomes of universal are not fixed. Here, to left makes pink appear to left and orange to right. /
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Vinyl&display=swap');
+#heading{ /*hash is used in id, id selector*/
+    background-color:black;
+    font-size:40px;
+    color:cyan;
+    font-family: 'Rubik Vinyl', cursive;
+}
+body{
+   background-image:url("pexels-kate-gundareva-12687588.jpg") ;
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+}
+ /* .paragraph{
+    is used in case of classes, class selector 
+    background-color:blue;
+    font-size:40px;
+    color:aquamarine;
+    font-family: 'Rubik Vinyl', cursive;
+}
+#p2{
+    background-color:chartreuse;
+    font-size:40px;
+    color:black;
+    font-family: 'Rubik Vinyl', cursive;
+} */

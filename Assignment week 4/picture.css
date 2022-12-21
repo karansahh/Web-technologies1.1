@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Oswald:wght@300&family=Rubik+Vinyl&display=swap');
+img{
+    border-radius: 50%;
+    width:auto;
+    height:600px;
+    background-size:cover;
+}
