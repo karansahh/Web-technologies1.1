@@ -1,0 +1,47 @@
+h1{
+    background-color: aqua;
+    font-size:60px;
+    text-transform: uppercase;/*there is also lowercase*/
+    text-align:center;
+    text-shadow:5px 5px 5px palevioletred;/*first for x axis and second px for y axis and the third one is to blur your shadow*/
+    color:black;
+    letter-spacing:50px;/*space between texts*/
+    
+}
+.container{
+    background-color:orange;
+    width:1050px;
+    height:1050px;
+    display:flex;
+    /*due to drawback of position, flex came and it makes boxes display side by side attached.*/
+    flex-direction: column;/*by default it is in row*/
+    justify-content: space-evenly;/*by default it is in flex-start, there are also flex-end which takes boxes to the end, space-between makes the spaces between the box, space-around: there is space between margin too, space evenly:equal space between contents */
+    flex-wrap: wrap;/*goes to where the spaces are instead of being congested*/
+}
+
+.box1{
+    width:300px;
+    height:300px;
+    background-color: beige;
+    font-size:15px;
+    border-style:solid;
+    border: 15px solid purple;/*for border of box*/
+    line-height:30px;
+
+}
+.box2{
+    width:300px;
+    height:300px;
+    background-color:blue;
+    font-size:25px;
+    border-style:solid;
+
+}
+.box3{
+    width:300px;
+    height:300px;
+    background-color:black;
+    font-size:25px;
+    border-style:solid;
+color:white;
+}

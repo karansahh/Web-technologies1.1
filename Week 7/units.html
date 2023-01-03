@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        body{
+            width:80vw;
+            height:70vh;/*pixel is smallest unit, percent is 100 percent when it takes the whole space*/
+            background-color:orchid;
+        }
+        .parent{
+            width:80vw;
+            height:70vh;
+            font-size:17px;
+            background-color: orange;
+        }
+        div{
+            width:50%;/*height doesn't work in this becuse this div is sub tag. and height only works in case of root element that is main elements which are head, body*/
+            height:60%;
+            background-color:blue; 
+            font-size:2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, rerum, amet omnis aspernatur ducimus magnam reiciendis quisquam iure, asperiores repellat explicabo quos dicta distinctio atque nostrum eum tempore eius cupiditate!</p>
+    </div>
+</div>
+<!--by default the font-size is of 1 em or 16px, thus 1em=16px; em only works in font-size, em works only in parent in case of son and parent, but in case of being with grandparent, parent and son, it again works only in parent for example:it works in parent div in case of body(grandfather) and parent and son div.
+rem: root emphasis, works with grandparent and not with parent, in case of body and son and parent div, it works with body and son div not with parent div.
+this means multiplication between parent and son in case of em and muliplication between grandparent and son in case of rem.
+vw, vh doesn't adjust according to the parent but percentage does. vw and vh overflows from parent but not percentage, it adjusts according to the size of its parent's size-->
+</body>
+
+</html>

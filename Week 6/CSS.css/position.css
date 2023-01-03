@@ -1,0 +1,32 @@
+.container{
+    width:1050px;
+    height:1050px;
+    border-style:solid;
+    position:relative;/*This makes it so that the boxes altough position absolute, this makes it so that they remain inside.*/
+}
+.box{
+    height:250px;
+    width:250px;
+    border-style:solid;
+
+}
+.purple{
+    background-color:purple;
+    position:relative;/*by default the postion is of static. top, bottom, right, left doesn't work in static position but on relative, absolute, sticky, fixed+3.*/
+    top:10px;
+    left:20px;
+}
+.red{
+    background-color:red;
+    position:absolute;/*this absolute overlaps over another box. overlaps over the element that is next to the specified element i.e. under it, in this case yellow. absolute breaks out of container*/
+    right:10px;
+}
+.yellow{
+    background-color:yellow;
+    position:sticky;/*after scrolling this goes to the top*/
+    top:0px;
+}
+.orange{
+background-color: orange;
+position:fixed;/*position fixed regardless of scrolling, mostly used for navigation bar*/
+}

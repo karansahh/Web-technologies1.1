@@ -1,0 +1,9 @@
+:root{
+   --bold:bolder;  /* This is variable declaring whereby to declare it we use. We declare variable in root element and can call variable in other elements. This prevents from repeating the same code again and to not repeat it we can call variable. -- */
+    --background-color:Lavender;
+}
+div{
+    font-weight: var(--bold);
+    background-color: var(--background-color);
+    /* These are variable calling */
+}

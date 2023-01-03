@@ -1,0 +1,34 @@
+body{
+    width:100%;
+    height:100%;
+}
+.container{
+    width:90%;
+    border:5px solid black;
+    /*thickness of border is 5 px*/
+    margin: 50px auto;
+    display:grid;
+    grid-template-rows: 150px 150px;/*two rows each of 150px and 150px, you can also write this as : repeat(2,150px)*/
+    grid-template-columns: 1fr 1fr 1fr;/*three colums each of 150px and this grid is of 2x3 grid and 1fr means three columns are of equal*/
+    grid-row-gap:10px;
+    grid-column-gap:10px;/*These are used for making gap between grids in row and column*/
+}
+.grid1{
+    background-color:black;
+    color:white;
+}
+.grid2{
+    background-color:aqua;
+}
+.grid3{
+    background-color:blueviolet;
+}
+.grid4{
+    background-color:brown;
+}
+.grid5{
+    background-color:chocolate;
+}
+.grid6{
+    background-color:darkgreen;
+}
