@@ -1,0 +1,21 @@
+.container{
+    background-color:rgb(16, 132, 248);
+    width:1050px;
+    height:1050px;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+img{
+    position:bottom;
+    padding:20px;
+    margin:10px; 
+    width:700px; 
+    height:auto;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+p{
+    text-align:left;
+}
